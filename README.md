@@ -79,6 +79,23 @@ Raw and processed data are stored in:
 - Used to demonstrate **pipeline extensibility**
 - *Not used for model training or evaluation*
 
+## Note
+
+Some of the datasets in this repository are **too large to display on GitHub**. They need to be downloaded separately or generated locally.
+
+### Included / Referenced Datasets
+
+1. **Tox21 Dataset**
+   - Raw CSV: `tox21.csv`
+   - Source: [Tox21 on DeepChem](https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/tox21.csv.gz)
+   - Processed descriptors (`tox21_descriptors.csv`) are generated locally using RDKit.
+   - Fingerprints (`tox21_morgan_fp.npy`) are generated locally using RDKit.
+
+2. **ChEMBL 36**
+   - SDF file: `chembl_36.sdf`
+   - Source: [ChEMBL Database](https://www.ebi.ac.uk/chembl/)
+   - Note: This file is **too large to view on GitHub**.
+
 ---
 
 ## Modeling Approach
