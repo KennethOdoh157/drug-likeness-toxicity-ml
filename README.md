@@ -79,7 +79,7 @@ Raw and processed data are stored in:
 - Used to demonstrate **pipeline extensibility**
 - *Not used for model training or evaluation*
 
-## Note
+**Note**
 
 Some of the datasets in this repository are **too large to display on GitHub**. They need to be downloaded separately or generated locally.
 
