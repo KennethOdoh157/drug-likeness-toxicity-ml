@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# Large or regenerated files
+data/raw/*.sdf
+data/raw/*.csv
+data/processed/*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
